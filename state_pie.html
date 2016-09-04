@@ -1,0 +1,588 @@
+<!doctype html>
+
+<html>
+<head>
+<title>State level (Graphical)</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+  <body>
+      <div class="text-center">
+      <h2>Offenders Relation and Proximity to Rape Victims (Section 376 IPC) During 2015</h2>
+      
+<a href="index.html" class="btn btn-default">Go back</a>
+        <!--Load the AJAX API-->
+       
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript">
+
+            // Load the Visualization API and the piechart package.
+          google.load('visualization', '1.0', {'packages':['corechart']});
+
+          // Set a callback to run when the Google Visualization API is loaded.
+          google.setOnLoadCallback(drawChart);
+
+          // Callback that creates and populates a data table,
+          // instantiates the pie chart, passes in the data and
+          // draws it.
+          function drawChart() {
+
+            // Create the data table.
+            var data1 = new google.visualization.DataTable();
+            data1.addColumn('string', 'Offender relationship to victim');    
+            data1.addColumn('number', 'Percentage');
+            data1.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 40.2],
+          ['Known people(neighbours/co-workers etc)',    59.4],
+          ['Strangers',      0.3]
+              
+            ]);
+            // Create the data table.
+            var data2 = new google.visualization.DataTable();
+            data2.addColumn('string', 'Offender relationship to victim');
+            data2.addColumn('number', 'Percentage');
+            data2.addRows([
+              ['Close relatives(father/brother/live in partner etc)', 30.9],
+          ['Known people(neighbours/co-workers etc)',    52.1],
+          ['Strangers',      16.9]
+            ]);
+	var data3 = new google.visualization.DataTable();
+            data3.addColumn('string', 'Offender relationship to victim');
+            data3.addColumn('number', 'Percentage');
+            data3.addRows([
+              ['Close relatives(father/brother/live in partner etc)', 12.1],
+          ['Known people(neighbours/co-workers etc)',    78.8],
+          ['Strangers',      9.1]
+            ]);
+	var data4 = new google.visualization.DataTable();
+            data4.addColumn('string', 'Offender relationship to victim');
+            data4.addColumn('number', 'Percentage');
+            data4.addRows([
+              ['Close relatives(father/brother/live in partner etc)', 31.2],
+          ['Known people(neighbours/co-workers etc)',    60.4],
+          ['Strangers',      8.4]
+            ]);
+var data5 = new google.visualization.DataTable();
+            data5.addColumn('string', 'Offender relationship to victim');    
+            data5.addColumn('number', 'Percentage');
+            data5.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 41.4],
+          ['Known people(neighbours/co-workers etc)',    55.4],
+          ['Strangers',      3.2]
+              
+            ]);
+var data6 = new google.visualization.DataTable();
+            data6.addColumn('string', 'Offender relationship to victim');    
+            data6.addColumn('number', 'Percentage');
+            data6.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 32.5],
+          ['Known people(neighbours/co-workers etc)',    54.1],
+          ['Strangers',      3.4]
+              
+            ]);
+var data7 = new google.visualization.DataTable();
+            data7.addColumn('string', 'Offender relationship to victim');    
+            data7.addColumn('number', 'Percentage');
+            data7.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 38.7],
+          ['Known people(neighbours/co-workers etc)',    60.7],
+          ['Strangers',      0.6]
+              
+            ]);
+var data8 = new google.visualization.DataTable();
+            data8.addColumn('string', 'Offender relationship to victim');    
+            data8.addColumn('number', 'Percentage');
+            data8.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 28.6],
+          ['Known people(neighbours/co-workers etc)',    67.8],
+          ['Strangers',      3.6]
+              
+            ]);
+var data9 = new google.visualization.DataTable();
+            data9.addColumn('string', 'Offender relationship to victim');    
+            data9.addColumn('number', 'Percentage');
+            data9.addRows([
+             ['Close relatives(father/brother/live in partner etc)',60.2],
+          ['Known people(neighbours/co-workers etc)',    39.8],
+          ['Strangers',      0]
+              
+            ]);
+var data10 = new google.visualization.DataTable();
+            data10.addColumn('string', 'Offender relationship to victim');    
+            data10.addColumn('number', 'Percentage');
+            data10.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 20.6],
+          ['Known people(neighbours/co-workers etc)',    76.4],
+          ['Strangers',      3]
+              
+            ]);
+var data11 = new google.visualization.DataTable();
+            data11.addColumn('string', 'Offender relationship to victim');    
+            data11.addColumn('number', 'Percentage');
+            data11.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 31.4],
+          ['Known people(neighbours/co-workers etc)',    63.9],
+          ['Strangers',     4.7]
+              
+            ]);
+var data12 = new google.visualization.DataTable();
+            data12.addColumn('string', 'Offender relationship to victim');    
+            data12.addColumn('number', 'Percentage');
+            data12.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 49.5],
+          ['Known people(neighbours/co-workers etc)',    47.7],
+          ['Strangers',     2.8]
+              
+            ]);
+var data13 = new google.visualization.DataTable();
+            data13.addColumn('string', 'Offender relationship to victim');    
+            data13.addColumn('number', 'Percentage');
+            data13.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 51.5],
+          ['Known people(neighbours/co-workers etc)',   48.2],
+          ['Strangers',      0.3]
+              
+            ]);
+var data14 = new google.visualization.DataTable();
+            data14.addColumn('string', 'Offender relationship to victim');    
+            data14.addColumn('number', 'Percentage');
+            data14.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 29.4],
+          ['Known people(neighbours/co-workers etc)',    65.4],
+          ['Strangers',     5.2]
+              
+            ]);
+var data15 = new google.visualization.DataTable();
+            data15.addColumn('string', 'Offender relationship to victim');    
+            data15.addColumn('number', 'Percentage');
+            data15.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 36.4],
+          ['Known people(neighbours/co-workers etc)',    63],
+          ['Strangers',      0.6]
+              
+            ]);
+var data16 = new google.visualization.DataTable();
+            data16.addColumn('string', 'Offender relationship to victim');    
+            data16.addColumn('number', 'Percentage');
+            data16.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 15.2],
+          ['Known people(neighbours/co-workers etc)',    80.5],
+          ['Strangers',      4.3]
+              
+            ]);
+var data17 = new google.visualization.DataTable();
+            data17.addColumn('string', 'Offender relationship to victim');    
+            data17.addColumn('number', 'Percentage');
+            data17.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 7.5],
+          ['Known people(neighbours/co-workers etc)',   92.5],
+          ['Strangers',     0.0]
+              
+            ]);
+var data18 = new google.visualization.DataTable();
+            data18.addColumn('string', 'Offender relationship to victim');    
+            data18.addColumn('number', 'Percentage');
+            data18.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 25.8],
+          ['Known people(neighbours/co-workers etc)',    67.4],
+          ['Strangers',      6.8]
+              
+            ]);
+var data19 = new google.visualization.DataTable();
+            data19.addColumn('string', 'Offender relationship to victim');    
+            data19.addColumn('number', 'Percentage');
+            data19.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 5.7],
+          ['Known people(neighbours/co-workers etc)',    91.5],
+          ['Strangers',      2.8]
+              
+            ]);
+var data20 = new google.visualization.DataTable();
+            data20.addColumn('string', 'Offender relationship to victim');    
+            data20.addColumn('number', 'Percentage');
+            data20.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 38.9],
+          ['Known people(neighbours/co-workers etc)',    46.6],
+          ['Strangers',      14.5]
+              
+            ]);
+var data21 = new google.visualization.DataTable();
+            data21.addColumn('string', 'Offender relationship to victim');    
+            data21.addColumn('number', 'Percentage');
+            data21.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 27.5],
+          ['Known people(neighbours/co-workers etc)',    72],
+          ['Strangers',     0.5]
+              
+            ]);
+var data22 = new google.visualization.DataTable();
+            data22.addColumn('string', 'Offender relationship to victim');    
+            data22.addColumn('number', 'Percentage');
+            data22.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 25.3],
+          ['Known people(neighbours/co-workers etc)',    74.1],
+          ['Strangers',      0.6]
+              
+            ]);
+var data23 = new google.visualization.DataTable();
+            data23.addColumn('string', 'Offender relationship to victim');    
+            data23.addColumn('number', 'Percentage');
+            data23.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 20],
+          ['Known people(neighbours/co-workers etc)',    80],
+          ['Strangers',      0]
+              
+            ]);
+var data24 = new google.visualization.DataTable();
+            data24.addColumn('string', 'Offender relationship to victim');    
+            data24.addColumn('number', 'Percentage');
+            data24.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 66.2],
+          ['Known people(neighbours/co-workers etc)',   30.3],
+          ['Strangers',     3.5]
+              
+            ]);
+var data25 = new google.visualization.DataTable();
+            data25.addColumn('string', 'Offender relationship to victim');    
+            data25.addColumn('number', 'Percentage');
+            data25.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 51.4],
+          ['Known people(neighbours/co-workers etc)',    46.6],
+          ['Strangers',     2]
+              
+            ]);
+var data26 = new google.visualization.DataTable();
+            data26.addColumn('string', 'Offender relationship to victim');    
+            data26.addColumn('number', 'Percentage');
+            data26.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 43.1],
+          ['Known people(neighbours/co-workers etc)',    56.5],
+          ['Strangers',      0.4]
+              
+            ]);
+var data27 = new google.visualization.DataTable();
+            data27.addColumn('string', 'Offender relationship to victim');    
+            data27.addColumn('number', 'Percentage');
+            data27.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 40],
+          ['Known people(neighbours/co-workers etc)',    58],
+          ['Strangers',      2]
+              
+            ]);
+var data28 = new google.visualization.DataTable();
+            data28.addColumn('string', 'Offender relationship to victim');    
+            data28.addColumn('number', 'Percentage');
+            data28.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 24.7],
+          ['Known people(neighbours/co-workers etc)',   73.5],
+          ['Strangers',      1.8]
+              
+            ]);
+var data29 = new google.visualization.DataTable();
+            data29.addColumn('string', 'Offender relationship to victim');    
+            data29.addColumn('number', 'Percentage');
+            data29.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 6.7],
+          ['Known people(neighbours/co-workers etc)',    77],
+          ['Strangers',     26.3]
+              
+            ]);
+var data30 = new google.visualization.DataTable();
+            data30.addColumn('string', 'Offender relationship to victim');    
+            data30.addColumn('number', 'Percentage');
+            data30.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 36.1],
+          ['Known people(neighbours/co-workers etc)',   63.9],
+          ['Strangers',      0]
+              
+            ]);
+var data31 = new google.visualization.DataTable();
+            data31.addColumn('string', 'Offender relationship to victim');    
+            data31.addColumn('number', 'Percentage');
+            data31.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 48.6],
+          ['Known people(neighbours/co-workers etc)',    51.4],
+          ['Strangers',      0]
+              
+            ]);
+var data32 = new google.visualization.DataTable();
+            data32.addColumn('string', 'Offender relationship to victim');    
+            data32.addColumn('number', 'Percentage');
+            data32.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 87.5],
+          ['Known people(neighbours/co-workers etc)',    12.5],
+          ['Strangers',    0.0]
+              
+            ]);
+var data33 = new google.visualization.DataTable();
+            data33.addColumn('string', 'Offender relationship to victim');    
+            data33.addColumn('number', 'Percentage');
+            data33.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 0],
+          ['Known people(neighbours/co-workers etc)',    100],
+          ['Strangers',     0]
+              
+            ]);
+var data34 = new google.visualization.DataTable();
+            data34.addColumn('string', 'Offender relationship to victim');    
+            data34.addColumn('number', 'Percentage');
+            data34.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 28.3],
+          ['Known people(neighbours/co-workers etc)',    68.3],
+          ['Strangers',      3.4]
+              
+            ]);
+
+	
+var data36 = new google.visualization.DataTable();
+            data36.addColumn('string', 'Offender relationship to victim');    
+            data36.addColumn('number', 'Percentage');
+            data36.addRows([
+             ['Close relatives(father/brother/live in partner etc)', 100],
+          ['Known people(neighbours/co-workers etc)',    0],
+          ['Strangers',      0]
+              
+            ]);
+
+
+            
+
+            // Set chart options
+            var options1 = {'title':'Andhra Pradesh',
+                           'width':400,
+                           'height':300};
+            // Set chart options
+            var options2 = {'title':'Arunachal Pradesh',
+                           'width':400,
+                           'height':300};
+            var options3 = {'title':'Assam',
+                           'width':400,
+                           'height':300};
+ 	var options4 = {'title':'Bihar',
+                           'width':400,
+                           'height':300};
+var options5 = {'title':'Chhattisgarh ',
+                           'width':400,
+                           'height':300};
+var options6 = {'title':'Goa ',
+                           'width':400,
+                           'height':300};
+var options7 = {'title':'Gujarat',
+                           'width':400,
+                           'height':300};
+var options8 = {'title':' Haryana ',
+                           'width':400,
+                           'height':300};
+var options9 = {'title':' Himachal Pradesh ',
+                           'width':400,
+                           'height':300};
+var options10 = {'title':'Jammu & Kashmir ',
+                           'width':400,
+                           'height':300};
+var options11 = {'title':'Jharkhand',
+                           'width':400,
+                           'height':300};
+var options12 = {'title':' Karnataka ',
+                           'width':400,
+                           'height':300};
+var options13 = {'title':'  Kerala ',
+                           'width':400,
+                           'height':300};
+var options14 = {'title':' Madhya Pradesh ',
+                           'width':400,
+                           'height':300};
+var options15 = {'title':'Maharashtra ',
+                           'width':400,
+                           'height':300};
+var options16 = {'title':'Manipur ',
+                           'width':400,
+                           'height':300};
+var options17 = {'title':' Meghalaya ',
+                           'width':400,
+                           'height':300};
+var options18 = {'title':'Mizoram ',
+                           'width':400,
+                           'height':300};
+var options19 = {'title':'  Nagaland ',
+                           'width':400,
+                           'height':300};
+var options20 = {'title':'Odisha ',
+                           'width':400,
+                           'height':300};
+var options21 = {'title':'Punjab ',
+                           'width':400,
+                           'height':300};
+var options22 = {'title':'  Rajasthan',
+                           'width':400,
+                           'height':300};
+var options23 = {'title':'Sikkim ',
+                           'width':400,
+                           'height':300};
+var options24 = {'title':'Tamil Nadu ',
+                           'width':400,
+                           'height':300};
+var options25 = {'title':'  Telangana ',
+                           'width':400,
+                           'height':300};
+var options26 = {'title':' Tripura ',
+                           'width':400,
+                           'height':300};
+var options27 = {'title':'Uttar Pradesh ',
+                           'width':400,
+                           'height':300};
+var options28 = {'title':' Uttarakhand ',
+                           'width':400,
+                           'height':300};
+var options29 = {'title':'West Bengal ',
+                           'width':400,
+                           'height':300};
+var options30 = {'title':'A & N Islands ',
+                           'width':400,
+                           'height':300};
+var options31 = {'title':'  Chandigarh ',
+                           'width':400,
+                           'height':300};
+var options32 = {'title':'D&N Haveli ',
+                           'width':400,
+                           'height':300};
+var options33 = {'title':'Daman & Diu ',
+                           'width':400,
+                           'height':300};
+var options34 = {'title':' Delhi UT ',
+                           'width':400,
+                           'height':300};
+
+var options36 = {'title':' Puducherry ',
+                           'width':400,
+                           'height':300};	
+
+            // Instantiate and draw our chart, passing in some options.
+            var chart1 = new google.visualization.PieChart(document.getElementById('chart_div1'));
+            chart1.draw(data1, options1);
+            var chart2 = new google.visualization.PieChart(document.getElementById('chart_div2'));
+            chart2.draw(data2, options2);
+ 	var chart3 = new google.visualization.PieChart(document.getElementById('chart_div3'));
+            chart3.draw(data3, options3);
+ 	var chart4 = new google.visualization.PieChart(document.getElementById('chart_div4'));
+            chart4.draw(data4, options4);
+var chart5 = new google.visualization.PieChart(document.getElementById('chart_div5'));
+            chart5.draw(data5, options5);
+var chart6 = new google.visualization.PieChart(document.getElementById('chart_div6'));
+            chart6.draw(data6, options6);
+var chart7 = new google.visualization.PieChart(document.getElementById('chart_div7'));
+            chart7.draw(data7, options7);
+var chart8 = new google.visualization.PieChart(document.getElementById('chart_div8'));
+            chart8.draw(data8, options8);
+var chart9 = new google.visualization.PieChart(document.getElementById('chart_div9'));
+            chart9.draw(data9, options9);
+var chart10 = new google.visualization.PieChart(document.getElementById('chart_div10'));
+            chart10.draw(data10, options10);
+var chart11 = new google.visualization.PieChart(document.getElementById('chart_div11'));
+            chart11.draw(data11, options11);
+var chart12 = new google.visualization.PieChart(document.getElementById('chart_div12'));
+            chart12.draw(data12, options12);
+var chart13 = new google.visualization.PieChart(document.getElementById('chart_div13'));
+            chart13.draw(data13, options13);
+var chart14 = new google.visualization.PieChart(document.getElementById('chart_div14'));
+            chart14.draw(data14, options14);
+var chart15 = new google.visualization.PieChart(document.getElementById('chart_div15'));
+            chart15.draw(data15, options15);
+var chart16 = new google.visualization.PieChart(document.getElementById('chart_div16'));
+            chart16.draw(data16, options16);
+var chart17 = new google.visualization.PieChart(document.getElementById('chart_div17'));
+            chart17.draw(data17, options17);
+var chart18 = new google.visualization.PieChart(document.getElementById('chart_div18'));
+            chart18.draw(data18, options18);
+var chart19 = new google.visualization.PieChart(document.getElementById('chart_div19'));
+            chart19.draw(data19, options19);
+var chart20 = new google.visualization.PieChart(document.getElementById('chart_div20'));
+            chart20.draw(data20, options20);
+var chart21 = new google.visualization.PieChart(document.getElementById('chart_div21'));
+            chart21.draw(data21, options21);
+var chart22 = new google.visualization.PieChart(document.getElementById('chart_div22'));
+            chart22.draw(data22, options22);
+var chart23 = new google.visualization.PieChart(document.getElementById('chart_div23'));
+            chart23.draw(data23, options23);
+var chart24 = new google.visualization.PieChart(document.getElementById('chart_div24'));
+            chart24.draw(data24, options24);
+var chart25 = new google.visualization.PieChart(document.getElementById('chart_div25'));
+            chart25.draw(data25, options25);
+var chart26 = new google.visualization.PieChart(document.getElementById('chart_div26'));
+            chart26.draw(data26, options26);
+var chart27 = new google.visualization.PieChart(document.getElementById('chart_div27'));
+            chart27.draw(data27, options27);
+var chart28 = new google.visualization.PieChart(document.getElementById('chart_div28'));
+            chart28.draw(data28, options28);
+var chart29 = new google.visualization.PieChart(document.getElementById('chart_div29'));
+            chart29.draw(data29, options29);
+var chart30 = new google.visualization.PieChart(document.getElementById('chart_div30'));
+            chart30.draw(data30, options30);
+var chart31 = new google.visualization.PieChart(document.getElementById('chart_div31'));
+            chart31.draw(data31, options31);
+var chart32 = new google.visualization.PieChart(document.getElementById('chart_div32'));
+            chart32.draw(data32, options32);
+var chart33 = new google.visualization.PieChart(document.getElementById('chart_div33'));
+            chart33.draw(data33, options33);
+var chart34 = new google.visualization.PieChart(document.getElementById('chart_div34'));
+            chart34.draw(data34, options34);
+
+var chart36 = new google.visualization.PieChart(document.getElementById('chart_div36'));
+            chart36.draw(data36, options36);
+
+
+           
+
+          }
+        </script>
+
+      
+
+      
+        <!--Divs that will hold the charts-->
+       
+        <div id="chart_div1"></div>
+        
+        <div id="chart_div2"></div>
+ 	<div id="chart_div3"></div>
+ 	<div id="chart_div4"></div>
+<div id="chart_div5"></div>
+<div id="chart_div6"></div>
+<div id="chart_div7"></div>
+
+<div id="chart_div8"></div>
+<div id="chart_div9"></div>
+<div id="chart_div10"></div>
+
+<div id="chart_div11"></div>
+<div id="chart_div12"></div>
+<div id="chart_div13"></div>
+
+<div id="chart_div14"></div>
+<div id="chart_div15"></div>
+<div id="chart_div16"></div>
+
+<div id="chart_div17"></div>
+<div id="chart_div18"></div>
+<div id="chart_div19"></div>
+<div id="chart_div20"></div>
+<div id="chart_div21"></div>
+<div id="chart_div22"></div>
+<div id="chart_div23"></div>
+<div id="chart_div24"></div>
+<div id="chart_div25"></div>
+<div id="chart_div26"></div>
+<div id="chart_div27"></div>
+<div id="chart_div28"></div>
+<div id="chart_div29"></div>
+<div id="chart_div30"></div>
+<div id="chart_div31"></div>
+<div id="chart_div32"></div>
+<div id="chart_div33"></div>
+<div id="chart_div34"></div>
+
+<div id="chart_div36"></div>
+
+<a href="index.html" class="btn btn-default">Go back</a>
+</div>
+      </body>
+    </html>

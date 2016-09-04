@@ -1,0 +1,76 @@
+<html>
+      <head>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+      <div class="text-center">
+      <h2>Sexual harassment by STRANGERS</h2>
+      </div>
+        <!--Load the AJAX API-->
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript">
+	google.load('visualization', '1', {'packages': ['geochart']});
+google.setOnLoadCallback(drawVisualization);
+
+function drawVisualization() {
+  var data = new google.visualization.arrayToDataTable([
+    ['State', 'Percentage'],
+    ['Uttar Pradesh', 2.04],
+    ['Maharashtra', 0.69],
+    ['Bihar', 8.35 ],
+    ['West Bengal', 26.35],
+    ['Madhya Pradesh', 5.23],
+    ['Tamil Nadu', 3.56],
+    ['Rajasthan', 2.049],
+    ['Karnataka', 2.88],
+    ['Gujarat', 0.59],
+    ['Andhra Pradesh', 0.29],
+    ['Odisha', 14.52],
+    ['Telangana', 2.08],
+    ['Kerala',0.39 ],
+    ['Jharkhand', 4.74],
+    ['Assam',  9.11],
+    ['Punjab', 0.56],
+    ['Chhattisgarh', 3.20],
+    ['Haryana', 3.64],
+    ['Jammu and Kashmir', 3.04],
+    ['Uttarakhand', 1.76],
+    ['Himachal Pradesh', 0],
+    ['Tripura', 0.46],
+    ['Meghalaya', 0],
+    ['Manipur', 4.34],
+    ['Nagaland', 2.85],
+    ['Goa', 3.48],
+    ['Arunachal Pradesh', 16.9],
+    ['Mizoram', 6.89],
+    ['Sikkim', 0],
+    ['Delhi', 3.41],
+    ['Puducherry', 0],
+    ['Chandigarh', 0],
+    ['Andaman and Nicobar Islands', 0],
+    ['Dadra and Nagar Haveli', 0],
+    ['Daman and Diu', 0],
+
+  ]);
+  
+  var opts = {
+    region: 'IN',
+    displayMode: 'regions',
+    resolution: 'provinces',
+    width: 640, 
+    height: 480
+  };
+  var geochart = new google.visualization.GeoChart(
+      document.getElementById('visualization'));
+  geochart.draw(data, opts);
+}
+</script>
+      </head>
+
+      <body>
+        <!--Divs that will hold the charts-->
+        <div id="visualization" class="text-center"></div>
+       
+<a href="interface.html" class="btn btn-default">Go back</a>
+      </body>
+    </html>

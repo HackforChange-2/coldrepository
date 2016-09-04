@@ -1,0 +1,78 @@
+<html>
+      <head>
+            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+      <div class="text-center">
+      <h2>
+      Sexual harassment by Known people(neighbours/co-workers etc)
+       </h2> 
+       </div>
+        <!--Load the AJAX API-->
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript">
+	google.load('visualization', '1', {'packages': ['geochart']});
+google.setOnLoadCallback(drawVisualization);
+
+function drawVisualization() {
+  var data = new google.visualization.arrayToDataTable([
+    ['State', 'Percentage'],
+    ['Uttar Pradesh', 57.9],
+    ['Maharashtra', 62.8],
+    ['Bihar', 60.4],
+    ['West Bengal', 66.8],
+    ['Madhya Pradesh', 65.2],
+    ['Tamil Nadu', 30.16],
+    ['Rajasthan', 74.0],
+    ['Karnataka', 47.5],
+    ['Gujarat', 57.0],
+    ['Andhra Pradesh', 59.4],
+    ['Odisha', 46.5],
+    ['Telangana', 46.5],
+    ['Kerala', 48.0],
+    ['Jharkhand', 63.8],
+    ['Assam', 78.7],
+    ['Punjab', 71.8],
+    ['Chhattisgarh', 55.3],
+    ['Haryana', 67.6],
+    ['Jammu and Kashmir', 76.3],
+    ['Uttarakhand', 73.4],
+    ['Himachal Pradesh', 39.7],
+    ['Tripura', 56.3],
+    ['Meghalaya', 92.4],
+    ['Manipur',39.1],
+    ['Nagaland', 91.4],
+    ['Goa', 63.9],
+    ['Arunachal Pradesh', 44.1],
+    ['Mizoram', 62.0],
+    ['Sikkim', 80],
+    ['Delhi', 68.2],
+    ['Puducherry', 0],
+    ['Chandigarh', 51.3],
+    ['Andaman and Nicobar Islands', 63.8],
+    ['Dadra and Nagar Haveli', 12.5],
+    ['Daman and Diu', 100],
+    
+  ]);
+  
+  var opts = {
+    region: 'IN',
+    displayMode: 'regions',
+    resolution: 'provinces',
+    width: 640, 
+    height: 480
+  };
+  var geochart = new google.visualization.GeoChart(
+      document.getElementById('visualization'));
+  geochart.draw(data, opts);
+}
+</script>
+      </head>
+
+      <body>
+        <!--Divs that will hold the charts-->
+        <div id="visualization"></div>
+       
+<a href="interface.html" class="btn btn-default">Go back</a>
+      </body>
+    </html>

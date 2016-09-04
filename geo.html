@@ -1,0 +1,75 @@
+<html>
+      <head>
+              <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<div class="text-center">
+<h2>Sexual harassment by close relatives(father/brother/live in partner etc)</h2>
+</div>
+        <!--Load the AJAX API-->
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript">
+	google.load('visualization', '1', {'packages': ['geochart']});
+google.setOnLoadCallback(drawVisualization);
+
+function drawVisualization() {
+  var data = new google.visualization.arrayToDataTable([
+    ['State', 'Percentage'],
+    ['Uttar Pradesh', 40],
+    ['Maharashtra', 36.4141],
+    ['Bihar',31.22 ],
+    ['West Bengal', 6.75],
+    ['Madhya Pradesh', 29.46],
+    ['Tamil Nadu', 66.27],
+    ['Rajasthan', 25.38],
+    ['Karnataka', 49.57],
+    ['Gujarat', 42.34],
+    ['Andhra Pradesh', 40.2142],
+    ['Odisha', 38.91],
+    ['Telangana', 51.4],
+    ['Kerala',51.51 ],
+    ['Jharkhand', 31.4],
+    ['Assam',  12.1715],
+    ['Punjab', 27.53],
+    ['Chhattisgarh', 41.41],
+    ['Haryana', 28.69],
+    ['Jammu and Kashmir', 20.6],
+    ['Uttarakhand', 24.73],
+    ['Himachal Pradesh', 60.24],
+    ['Tripura', 43.19],
+    ['Meghalaya', 75.26],
+    ['Manipur', 56.52],
+    ['Nagaland', 57.1],
+    ['Goa', 32.55],
+    ['Arunachal Pradesh', 38.916],
+    ['Mizoram', 31.03],
+    ['Sikkim', 20],
+    ['Delhi', 28.37],
+    ['Puducherry', 100],
+    ['Chandigarh', 48.61],
+    ['Andaman and Nicobar Islands', 36.11],
+    ['Dadra and Nagar Haveli', 87.5],
+    ['Daman and Diu', 0],
+
+  ]);
+  
+  var opts = {
+    region: 'IN',
+    displayMode: 'regions',
+    resolution: 'provinces',
+    width: 640, 
+    height: 480
+  };
+  var geochart = new google.visualization.GeoChart(
+      document.getElementById('visualization'));
+  geochart.draw(data, opts);
+}
+</script>
+      </head>
+
+      <body>
+        <!--Divs that will hold the charts-->
+        <div id="visualization"></div>
+       
+<a href="interface.html" class="btn btn-default">Go back</a>
+      </body>
+    </html>

@@ -1,0 +1,75 @@
+{
+   "name":"case_distribution",
+   
+   "children":[
+      {
+         "name":"Well-known",
+         "description":"",
+         "children":[
+            {
+               "name":"Relatives",
+               "description":"",
+               "children":[
+                  {
+                     "name":"G'father/father/brother/son",
+                     "description":"",
+                     "size":488
+                  },
+                  {
+                     "name":"Close family member",
+                     "description":"",
+                     "size":891
+                  },
+                  {
+                     "name":"Other blood relatives",
+                     "description":"",
+                     "size":1788
+                  }
+               ]
+            },
+            {
+               "name":"Partners",
+               "description":"",
+               "children":[
+                  {
+                     "name":"Partner/ Ex",
+                     "description":"",
+                     "size":705
+                  },
+                  {
+                     "name":"Potential husband",
+                     "description":"",
+                     "size":7655
+                  }
+               ]
+            },
+            {
+               "name":"Unrelated",
+               "description":"",
+               "children":[
+                  {
+                     "name":"Neighbours",
+                     "description":"",
+                     "size":9508
+                  },
+                  {
+                     "name":"Co-worker",
+                     "description":"",
+                     "size":557
+                  },
+                  {
+                     "name":"Others known",
+                     "description":"",
+                     "size":11506
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Not known",
+         "description":"",
+         "size":1553
+      }
+   ]
+}
